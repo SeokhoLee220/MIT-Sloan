@@ -1,0 +1,65 @@
+match_id,home,away,date,stage,split
+3812,Senegal,Netherlands,2022-11-21 16:00:00,group,development
+3813,England,Iran,2022-11-21 13:00:00,group,development
+3814,Qatar,Ecuador,2022-11-20 16:00:00,group,development
+3815,United States,Wales,2022-11-21 19:00:00,group,development
+3816,Argentina,Saudi Arabia,2022-11-22 10:00:00,group,development
+3817,Denmark,Tunisia,2022-11-22 13:00:00,group,validation
+3818,Mexico,Poland,2022-11-22 16:00:00,group,validation
+3819,France,Australia,2022-11-22 19:00:00,group,validation
+3820,Morocco,Croatia,2022-11-23 10:00:00,group,development
+3821,Germany,Japan,2022-11-23 13:00:00,group,development
+3822,Spain,Costa Rica,2022-11-23 16:00:00,group,development
+3823,Belgium,Canada,2022-11-23 19:00:00,group,development
+3824,Switzerland,Cameroon,2022-11-24 10:00:00,group,development
+3825,Uruguay,South Korea,2022-11-24 13:00:00,group,validation
+3826,Portugal,Ghana,2022-11-24 16:00:00,group,validation
+3827,Brazil,Serbia,2022-11-24 19:00:00,group,development
+3828,Wales,Iran,2022-11-25 10:00:00,group,development
+3829,Qatar,Senegal,2022-11-25 13:00:00,group,validation
+3830,Netherlands,Ecuador,2022-11-25 16:00:00,group,validation
+3831,England,United States,2022-11-25 19:00:00,group,validation
+3832,Tunisia,Australia,2022-11-26 10:00:00,group,development
+3833,Poland,Saudi Arabia,2022-11-26 13:00:00,group,development
+3834,France,Denmark,2022-11-26 16:00:00,group,development
+3835,Argentina,Mexico,2022-11-26 19:00:00,group,development
+3836,Japan,Costa Rica,2022-11-27 10:00:00,group,validation
+3837,Belgium,Morocco,2022-11-27 13:00:00,group,development
+3838,Croatia,Canada,2022-11-27 16:00:00,group,development
+3839,Spain,Germany,2022-11-27 19:00:00,group,validation
+3840,Cameroon,Serbia,2022-11-28 10:00:00,group,development
+3841,South Korea,Ghana,2022-11-28 13:00:00,group,development
+3842,Brazil,Switzerland,2022-11-28 16:00:00,group,development
+3843,Portugal,Uruguay,2022-11-28 19:00:00,group,development
+3844,Ecuador,Senegal,2022-11-29 15:00:00,group,development
+3845,Netherlands,Qatar,2022-11-29 15:00:00,group,development
+3846,Wales,England,2022-11-29 19:00:00,group,development
+3847,Iran,United States,2022-11-29 19:00:00,group,development
+3848,Australia,Denmark,2022-11-30 15:00:00,group,development
+3849,Tunisia,France,2022-11-30 15:00:00,group,development
+3850,Poland,Argentina,2022-11-30 19:00:00,group,validation
+3851,Saudi Arabia,Mexico,2022-11-30 19:00:00,group,development
+3852,Croatia,Belgium,2022-12-01 15:00:00,group,validation
+3853,Canada,Morocco,2022-12-01 15:00:00,group,validation
+3854,Japan,Spain,2022-12-01 19:00:00,group,development
+3855,Costa Rica,Germany,2022-12-01 19:00:00,group,development
+3856,Ghana,Uruguay,2022-12-02 15:00:00,group,development
+3857,South Korea,Portugal,2022-12-02 15:00:00,group,development
+3858,Serbia,Switzerland,2022-12-02 19:00:00,group,validation
+3859,Cameroon,Brazil,2022-12-02 19:00:00,group,development
+10502,Netherlands,United States,2022-12-03 15:00:00,round_of_16,development
+10503,Argentina,Australia,2022-12-03 19:00:00,round_of_16,development
+10504,France,Poland,2022-12-04 15:00:00,round_of_16,development
+10505,England,Senegal,2022-12-04 19:00:00,round_of_16,validation
+10506,Japan,Croatia,2022-12-05 15:00:00,round_of_16,validation
+10507,Brazil,South Korea,2022-12-05 19:00:00,round_of_16,development
+10508,Morocco,Spain,2022-12-06 15:00:00,round_of_16,development
+10509,Portugal,Switzerland,2022-12-06 19:00:00,round_of_16,development
+10510,Croatia,Brazil,2022-12-09 15:00:00,quarterfinal,development
+10511,Netherlands,Argentina,2022-12-09 19:00:00,quarterfinal,development
+10512,Morocco,Portugal,2022-12-10 15:00:00,quarterfinal,development
+10513,England,France,2022-12-10 19:00:00,quarterfinal,validation
+10514,Argentina,Croatia,2022-12-13 19:00:00,semifinal,development
+10515,France,Morocco,2022-12-14 19:00:00,semifinal,development
+10516,Croatia,Morocco,2022-12-17 15:00:00,third_place,validation
+10517,Argentina,France,2022-12-18 15:00:00,final,validation

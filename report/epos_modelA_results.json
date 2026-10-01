@@ -1,0 +1,136 @@
+{
+  "definition": "backpass = (x_target - x_carrier)*attack_direction < 0; EPOS = sum of POA over eligible candidates",
+  "poa_source": {
+    "development": "LOGO-CV OOF HGB",
+    "validation": "frozen HGB (dev-trained)"
+  },
+  "n": {
+    "development": 24871,
+    "validation": 10541
+  },
+  "epos_describe": {
+    "development": {
+      "count": 24871.0,
+      "mean": 7.579,
+      "std": 1.033,
+      "min": 2.194,
+      "25%": 6.955,
+      "50%": 7.736,
+      "75%": 8.355,
+      "max": 9.847
+    },
+    "validation": {
+      "count": 10541.0,
+      "mean": 7.696,
+      "std": 1.007,
+      "min": 2.882,
+      "25%": 7.091,
+      "50%": 7.885,
+      "75%": 8.454,
+      "max": 9.795
+    }
+  },
+  "N_describe": {
+    "development": {
+      "count": 24871.0,
+      "mean": 9.453,
+      "std": 0.715,
+      "min": 4.0,
+      "25%": 9.0,
+      "50%": 10.0,
+      "75%": 10.0,
+      "max": 10.0
+    },
+    "validation": {
+      "count": 10541.0,
+      "mean": 9.505,
+      "std": 0.681,
+      "min": 6.0,
+      "25%": 9.0,
+      "50%": 10.0,
+      "75%": 10.0,
+      "max": 10.0
+    }
+  },
+  "corr_epos_N": 0.666299587147418,
+  "models": {
+    "success": {
+      "dev_fit": {
+        "n": 24871,
+        "events_pos": 21957,
+        "coef": 0.5627564471518351,
+        "se_cluster": 0.01964679235473951,
+        "p": 1.921594172859608e-180,
+        "odds_ratio": 1.7555047934440338,
+        "or_ci95": [
+          1.689189341281112,
+          1.8244237069763227
+        ],
+        "intercept": -2.113746335698747,
+        "mcfadden_r2": 0.054204016343151085,
+        "auc_insample_fit": 0.6673390828251725
+      },
+      "val_independent_fit": {
+        "n": 10541,
+        "events_pos": 9372,
+        "coef": 0.5862158565638379,
+        "se_cluster": 0.029086571588659575,
+        "p": 2.473469561042325e-90,
+        "odds_ratio": 1.7971747645237406,
+        "or_ci95": [
+          1.69758419095714,
+          1.9026079245117733
+        ],
+        "intercept": -2.2901749786086043,
+        "mcfadden_r2": 0.05658743369375263,
+        "auc_insample_fit": 0.6698666869662906
+      },
+      "heldout_val_auc_of_dev_model": 0.6698666869662906,
+      "base_rate": {
+        "development": 0.8828354308230469,
+        "validation": 0.8890997059102552
+      },
+      "epos_sd_dev": 1.0328827325459173,
+      "or_per_1sd_dev": 1.7882927913417601
+    },
+    "backpass": {
+      "dev_fit": {
+        "n": 24871,
+        "events_pos": 10348,
+        "coef": -0.13001861682922664,
+        "se_cluster": 0.013986014932467409,
+        "p": 1.4537646592523633e-20,
+        "odds_ratio": 0.8780790837200462,
+        "or_ci95": [
+          0.8543355846663693,
+          0.9024824566657044
+        ],
+        "intercept": 0.6450882774072384,
+        "mcfadden_r2": 0.0032372250194513397,
+        "auc_insample_fit": 0.5327967106865212
+      },
+      "val_independent_fit": {
+        "n": 10541,
+        "events_pos": 4334,
+        "coef": -0.14858756160507547,
+        "se_cluster": 0.026799429652602964,
+        "p": 2.949132927842395e-08,
+        "odds_ratio": 0.8619245323706913,
+        "or_ci95": [
+          0.8178188319651863,
+          0.9084088926116339
+        ],
+        "intercept": 0.7825258773493022,
+        "mcfadden_r2": 0.004017924647601423,
+        "auc_insample_fit": 0.5384006802983576
+      },
+      "heldout_val_auc_of_dev_model": 0.5384006802983576,
+      "base_rate": {
+        "development": 0.41606690523099193,
+        "validation": 0.41115643677070485
+      },
+      "epos_sd_dev": 1.0328827325459173,
+      "or_per_1sd_dev": 0.8743329867047922
+    }
+  }
+}
